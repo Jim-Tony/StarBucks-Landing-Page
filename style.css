@@ -17,12 +17,15 @@ html,body{
     color: #000;
     line-height: 1.4;
 }
+
 a{
     color: #000;
 }
+
 ul{
    list-style:none;
 }
+
 p{
     margin: 5px 0;
     line-height: 1.7;
@@ -31,6 +34,7 @@ p{
 img{
     max-width: 100%;
 }
+
 .navbar{
     width: 100%;
     height: auto;
@@ -38,6 +42,7 @@ img{
     box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%),
     0 0 2px rgb(0 0 0 / 7%);
 }
+
 .navbar-container{
     display: flex;
     flex-direction: row;
@@ -93,6 +98,7 @@ img{
     display: flex;
     align-items: center;
 }
+
 .btn{
     border: 0;
     cursor: pointer;
@@ -104,21 +110,26 @@ img{
     text-align: center;
     text-decoration: none;
 }
+
 .btn-dark-outline{
     background-color: #fff;
     border-color: #000;
     color:#000
 }
+
 .btn-dark-outline:hover{
     background-color: rgb(0 0 0 /6%);
 }
+
 .btn-dark{
     background-color: #000;
     color:#fff;
 }
+
 .btn-dark:hover{
     background-color: #333;
 }
+
 .btn-light-outline{
     border-color: #fff;
     color: #fff;
