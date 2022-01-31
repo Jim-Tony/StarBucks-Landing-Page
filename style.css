@@ -116,7 +116,7 @@ section a{
 }
 
 .btn-dark-outline{
-    background-color: #fff;
+    background-color: transparent;
     border-color: #000;
     color:#000
 }
@@ -139,15 +139,45 @@ section a{
     border-color: #fff;
     color: #fff;
 }
+
+/* Grid styles */
+.grid-col-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:2rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.grid-reversed :first-child{
+    order: 2;
+}
 /* Boxes  */
 .box{
     margin-bottom: 30px;
 }
+.box-text{
+    max-width: 500px;
+    text-align: center;
+    justify-self: center;
+    padding: 20px 0;
+    margin: 0 auto;
+}
 
-.box-b img{
+.box-text .btn{
+    margin-top: 20px;
+}
+
+
+
+.btn-light-outline:hover{
+    background-color: rgb(0 0 0 / 6%);
+}
+
+/* .box-b img{
     width: 300px;
     height: 300px;
-}
+} */
 
 .box-inner{
     max-width: 700px;
