@@ -98,9 +98,11 @@ img{
     display: flex;
     align-items: center;
 }
+
 section a{
     color: #fff;
 }
+
 .btn{
     border: 0;
     cursor: pointer;
@@ -133,12 +135,18 @@ section a{
 }
 
 .btn-light-outline{
+    background-color: transparent;
     border-color: #fff;
     color: #fff;
 }
 /* Boxes  */
 .box{
     margin-bottom: 30px;
+}
+
+.box-b img{
+    width: 300px;
+    height: 300px;
 }
 
 .box-inner{
