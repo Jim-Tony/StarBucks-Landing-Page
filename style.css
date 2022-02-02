@@ -401,5 +401,8 @@ section a{
      .hamburger{
          display: none;
      }
+     #menu{
+         display: none;
+     }
  }
 
